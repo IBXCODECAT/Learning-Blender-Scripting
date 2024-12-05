@@ -1,11 +1,8 @@
 # Blender Python Learning Repository  
 
-**⚠ Warning:**  
-This repository is a personal learning resource for exploring Blender Python scripting. It is **not maintained** and does **not accept issues or pull requests**. The scripts and resources here are for educational purposes and experimentation only.  
-
----
-
 ## About  
+
+This repository is a personal learning resource for exploring Blender Python scripting. It is **not maintained** and does **not accept issues or pull requests**. The scripts and resources here are for educational purposes and experimentation only.  
 
 This repository tracks my progress and experiments in learning Blender scripting with Python. It’s a collection of scripts, examples, and notes designed to help explore Blender’s Python API and understand how to automate tasks, create tools, or extend Blender’s functionality.  
 
@@ -26,13 +23,9 @@ Follow these steps to get started:
    cd blender-python-learning
    ```  
 
----
-
 ### Step 2: Install Blender  
 
 Download and install Blender from [blender.org](https://www.blender.org/). Once installed, you’ll use Blender’s **Scripting** workspace to load and run the scripts from this repository.  
-
----
 
 ### Step 3: Running Blender Scripts  
 
@@ -54,8 +47,6 @@ Blender has a built-in scripting editor, but external editors like Visual Studio
 - **Version Control:** Track changes, manage different script versions, and revert easily.  
 - **Debugging and Search Tools:** Helps troubleshoot and explore large scripts.  
 - **AI Assistance:** Tools like [GitHub Copilot](https://github.com/features/copilot) can speed up learning by providing code suggestions.  
-
----
 
 ### Setting Up Visual Studio Code  
 
@@ -80,7 +71,7 @@ Blender has a built-in scripting editor, but external editors like Visual Studio
 
 ---
 
-### Automate Script Execution  
+## Optional: Automate Script Execution  
 
 For repetitive testing, automate script execution with a batch file:  
 
@@ -91,27 +82,3 @@ For repetitive testing, automate script execution with a batch file:
    Replace `path\to\your_script.py` with the full path to your Blender script.  
 
 2. Run the batch file to execute your script in Blender automatically.  
-
----
-
-## Repository Structure  
-
-- **`scripts/`**: Contains Blender Python scripts for various experiments.  
-- **`notes/`**: Documentation and learnings about Blender’s Python API.  
-- **`examples/`**: Example projects or small demos created during learning.  
-
----
-
-## Limitations  
-
-1. **Manual Execution:** Scripts must be manually loaded and run in Blender.  
-2. **No Maintenance:** This repository is not actively maintained and doesn’t support issues or pull requests.  
-3. **Learning Focus:** The scripts are for experimentation and learning, not production use.  
-
----
-
-## Start Exploring  
-
-Begin by browsing the `scripts/` directory, loading the files into Blender’s scripting editor, and experimenting with modifications. Use the `notes/` folder for additional explanations and learning material.  
-
-Happy scripting! 🚀  
