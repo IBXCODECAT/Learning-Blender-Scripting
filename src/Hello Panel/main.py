@@ -11,7 +11,7 @@ class TestPanel(bpy.types.Panel):
         layout = self.layout
 
         row = layout.row()
-        row.label(text="Hello world!")
+        row.label(text="Hello Panel!", icon='WORLD_DATA')
 
 
 def register():
