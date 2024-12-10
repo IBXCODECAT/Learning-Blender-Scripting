@@ -66,6 +66,16 @@ Blender has a built-in scripting editor, but external editors like Visual Studio
 
    ** IMPORTANT ** You will need to reference the "fake bpy" via changing your Visual Studio Code user setting `"python.autoComplete.extraPaths"` to the path of your site packages!
 
+   Example:
+
+   ```json
+      {
+         "python.autoComplete.extraPaths": [
+            "%localappdata%/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages"
+         ]
+      }
+   ```
+
 4. **Configure VS Code:**  
    - Select your Python interpreter in the bottom-left corner of VS Code (ensure it’s the one installed on your system, not Blender’s internal Python).  
 
