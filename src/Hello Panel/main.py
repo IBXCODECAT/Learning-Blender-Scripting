@@ -21,14 +21,13 @@ class TestPanel(bpy.types.Panel):
 
         # Manipulate the row object with various UI elements
         row.label(text="Hello World!", icon='WORLD_DATA')
+        row.label(text="Hello Blender!", icon='BLENDER')
 
 # Register the custom panel class with Blender
-
 def register():
     bpy.utils.register_class(TestPanel)
 
 # Unregister the custom panel class to clean up
-
 def unregister():
     bpy.utils.unregister_class(TestPanel)
 
